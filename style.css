@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 p {
@@ -20,47 +24,17 @@ body header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* body header .in-header {
-  display: flex;
-  flex-direction: column;
-  justify-content : center;
-  align-items: center;
-  width: 80%;
-} */
-
 .the_nav {
   display: flex;
   flex-direction: column;
 }
-.the_nav .top-bar {
-  display: none;
-}
-.the_nav .top-bar .bar {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  gap: 50px;
-  background: #fff;
-}
-.the_nav .the_menus {
-  background-color: #FFF;
-}
-.the_nav .the_menus .logo {
-  display: none;
-  height: 50px;
-  width: 100px;
-}
-.the_nav .the_menus .logo back img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
+.the_nav .desk_top {
+       display: none;
 }
 .the_nav .humburger {
   padding-top: 20px;
   padding-left: 20px;
 }
-
 .presentation {
   display: flex;
   flex-direction: column;
@@ -142,7 +116,12 @@ body header {
   width: 60%;
   margin-bottom: 60px;
   background-color: #EC5242;
-  height: 100px;
+  height: 90px;
+  border-radius: 3px;
+}
+.program .join a{
+ text-decoration : none;
+  font-size: 15px;
 }
 
 .speakers_cont{
@@ -151,6 +130,7 @@ body header {
   justify-content: center;
   align-items: center;
   flex-direction : column;
+  padding: 15px;
    gap:50px;
 }
 .speakers_cont .speaker_cont {
@@ -197,9 +177,6 @@ body header {
   display: flex;
   flex-direction: column;
   gap: 120px;
-}
-.header .first-section .nav {
-  padding-top: 20px;
 }
 .header .first-section .ab_presentions {
   display: flex;
@@ -461,24 +438,88 @@ body header {
 }
 
 @media only screen and (min-width: 768px) {
-  .the_nav .top-bar {
-    background-color: rgb(233, 90, 90);
+  /* body header {
+    height : auto;
+  } */
+  .the_nav .desk_top {
     display: flex;
-    height: 40px;
+    flex-direction: column;
+    position : fixed;
+    top : 0px;
+    right: 0px;
+    left : 0px;
+  }
+  .the_nav .desk_top .top_bar{
+    background-color : #3e3e3e;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
+    height: 35px;
+    gap: 50px;
+  }
+  .the_nav .desk_top .top_bar .bar{
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+    display: flex;
+    list-style: none;
+    gap:30px;
+    margin-right: 140px;
+  }
+  .the_nav .desk_top .top_bar .bar li{
+    color: #fff;
+    font-size: 15px;
   }
 
-  .the_nav .top-bar .bar {
+  .the_nav .desk_top .the_menus{
+    display: flex;
+    justify-content : space-around;
+    align-items: center;
+    background-color: #FFF;
+    height : 70px;
+  }
+  .the_nav .desk_top .the_menus .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0rem;
+    height: 60px ;
+    width: 100px;
+  }
+  .the_nav .desk_top .the_menus .logo img {
+    height: 100%;
+    width : 100%;
+  }
+  .the_nav .desk_top .the_menus .menus {
     list-style: none;
-    gap: 50px;
+    display: flex;
+    margin-bottom : 0rem;
+    padding-left: 0rem;
   }
-  .the_nav .top-bar .bar li {
-    color: rgb(15, 14, 14);
+  .the_nav .desk_top .the_menus .menus li {
+    font-size : 15px;
   }
+  .nem2 a:hover,.nem2 a:active ,.nem3 a:hover
+  .nem3 a:active,.nem4 a:hover,.nem4 a:active,.nem5 a:hover,.nem5 a:active{
+    color : #949597;
+  }
+  .the_nav .desk_top .the_menus .menus .nem1 a {
+    color: #EC5242;
+  }
+
+  .nem2 a,.nem3 a,.nem4 a,.nem5 a{
+    color : #949597
+  }
+  .nem6 {
+    border : 4px solid #EC5242;
+  }
+  .nem6 a{
+    color: #EC5242;
+  }
+  .nem6 a:hover{
+    color: #EC5242;
+  }
+
   .the_nav .humburger {
     display: none;
   }
@@ -486,8 +527,8 @@ body header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 100px;
-    padding-left: 90px;
+    padding-left: 190px;
+    padding-top : 150px;
   }
   .presentation .introduction .main_title {
     font-size: 70px;
