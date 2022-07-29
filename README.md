@@ -12,6 +12,7 @@ This project is about to give me a handle as a student on how to create a web si
 
 https://ghislainmitahi.github.io/conference_cap/
 
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -21,6 +22,7 @@ To get a local copy up and running follow these simple example steps.
  To get the project in your local environment, run 
 
  ```
+
  git clone git@github.com:GhislainMitahi/conference_cap.git
  
  ```
