@@ -243,6 +243,16 @@ body header {
   color: white;
 }
 
+.pro_title::after {
+  content: " ";
+  height: 3px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #ec5242;
+}
+
 .the_program {
   width: 80%;
   height: auto;
@@ -299,6 +309,16 @@ body header {
   gap: 50px;
 }
 
+.feature_title::after {
+  content: " ";
+  height: 3px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #ec5242;
+}
+
 .speakers_cont .speaker_cont {
   width: 100%;
 }
@@ -353,6 +373,15 @@ body header {
   line-height: 20px;
 }
 
+.cardbody .rank::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  margin-top: 2px;
+  background-color: #ec5242;
+}
+
 .cardbody .cardtext {
   font-size: 15px;
   color: #575757;
@@ -390,6 +419,14 @@ body header {
   text-align: center;
 }
 
+.header .first-section .ab_presentions .ab_intro .ab_title::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  background-color: #ec5242;
+  margin: 8px 150px 0 150px;
+}
+
 .header .first-section .ab_presentions .ab_text {
   border: 2px solid #d3d3d3;
   padding: 20px;
@@ -421,6 +458,14 @@ body header {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+}
+
+.logo_section .lg_title::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  background-color: #ec5242;
+  margin: 4px 180px 0 180px;
 }
 
 .logo_section .lg_text {
@@ -457,6 +502,14 @@ body header {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
+}
+
+.past_container .p_title::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  background-color: #ec5242;
+  margin: 4px 120px 0 120px;
 }
 
 .past_container .p_text {
@@ -501,6 +554,16 @@ body header {
   text-align: center;
   color: #828282;
   font-weight: 300;
+}
+
+.partner .part_title::after {
+  content: " ";
+  height: 3px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #ec5242;
 }
 
 .partner .the_list {
@@ -557,92 +620,66 @@ body header {
   font-size: 30px;
 }
 
-.footer_index {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-}
-
-.footer_index .first_f_section {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer_index .first_f_section .f_icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-}
-
-.footer_index .first_f_section .fa-brands.fa-creative-commons {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.footer_index .first_f_section .f_text {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 20px;
-}
-
-.footer_index .second_f_section {
-  width: 50%;
-  font-size: 15px;
-  color: #828282;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   padding: 20px 10px;
-  height: auto;
 }
 
 .footer .first_f_section {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap: 5px;
+  padding-left: 20px;
+  height: auto;
 }
 
 .footer .first_f_section .f_icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  height: 100%;
+  margin-bottom: 0;
 }
 
 .footer .first_f_section .fa-brands.fa-creative-commons {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
 }
 
 .footer .first_f_section .f_text {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 15px;
+  line-height: 20px;
 }
 
 .footer .second_f_section {
   width: 50%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: start flex;
+  align-items: flex-start;
+  gap: 5px;
 }
 
 .footer .second_f_section h6 {
-  font-size: 12px;
-  color: #828282;
+  font-size: 15px;
+  color: #222;
   margin-bottom: 0;
+}
+
+.footer .second_f_section .two {
+  font-size: 15px;
+  color: #222;
+  line-height: 20px;
+}
+
+.footer .second_f_section .two .md-view {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -758,18 +795,20 @@ body header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-left: 190px;
-    padding-top: 150px;
+    padding-left: 50px;
+    padding-top: 80px;
   }
 
   .presentation .introduction .main_title {
     font-size: 70px;
     font-weight: 900;
+    word-spacing: 1.2px;
   }
 
   .presentation .introduction .hello {
     color: #ec5242;
     font-size: 40px;
+    word-spacing: 1.2px;
   }
 
   .intro .paragraph {
@@ -798,23 +837,80 @@ body header {
     width: 40%;
   }
 
-  .footer {
-    background: #414246;
+  #footer_ab {
+    background-color: #3e3e3e;
+  }
+
+  .footer .first_f_section .f_text {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  #footer_ab .f_text {
+    color: #fff;
+  }
+
+  .footer .first_f_section .f_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  #footer_ab .f_icon {
+    color: #fff;
+  }
+
+  .footer .second_f_section h6 {
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 0;
+  }
+
+  .footer .second_f_section .two {
+    font-size: 15px;
+    color: #222;
+    line-height: 20px;
+  }
+
+  #footer_ab .second_f_section h6,
+  #footer_ab .second_f_section .two {
+    color: #fff;
+  }
+
+  .footer .second_f_section .two .md-view {
+    display: inline;
+  }
+
+  #footer_ab .second_f_section .two .md-view {
+    display: inline;
   }
 
   .footer .first_f_section {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer .first_f_section .fa-brands.fa-creative-commons {
+    font-size: 40px;
+    font-weight: 600;
   }
 
   .footer .second_f_section {
-    width: 70%;
+    width: 50%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .footer_index {
-    background-color: #fff;
+    flex-direction: column;
+    justify-content: start flex;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 5px;
   }
 
   .speakers_cont .speaker_cont {
@@ -844,6 +940,13 @@ body header {
   .program .join {
     background: 0;
     text-decoration: inherit;
+  }
+
+  .program .join a::after {
+    content: " ";
+    height: 1px;
+    display: block;
+    background-color: #fff;
   }
 
   .the_program .program-blox ul .l3 {

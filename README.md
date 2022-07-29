@@ -39,9 +39,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgements
+
+This project is inspired to: [ Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) template CC-Global-Summit   Cindy Shin, I'm so gratfull for all.
 
 ## Show your support
 
@@ -49,5 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is inspired to **Cindy Shin in Behance** template CC-Global-Summit
+This project is not licensed.
+
+
 

@@ -58,7 +58,23 @@ const speaker4 = {
   text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
 };
 
-const Speakers = [speaker1, speaker2, speaker3, speaker4];
+const speaker5 = {
+  imageSrc: './assets/barack-obama.jpeg',
+  name: 'Nick NICK',
+  rank: 'TECH RECUITERS',
+  id: 'fithSPeaker',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+};
+
+const speaker6 = {
+  imageSrc: './assets/barack-obama.jpeg',
+  name: 'Dan DAN',
+  rank: 'MANAGER',
+  id: 'sixthSPeaker',
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+};
+
+const Speakers = [speaker1, speaker2, speaker3, speaker4, speaker5, speaker6];
 
 for (let i = 0; i < Speakers.length; i += 1) {
   const speaker = document.createElement('div');
