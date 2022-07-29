@@ -48,5 +48,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is inspired to **Cindy Shin in Behance** template CAMPANY STUFF_Conferance
+This project is inspired to **Cindy Shin in Behance** template CC-Global-Summit
 
