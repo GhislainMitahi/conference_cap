@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
  To get the project in your local environment, run 
 
  ```
- git clone https://github.com/GhislainMitahi/M_portofolio
+ git clone it@github.com:GhislainMitahi/conference_cap.git
  
  ```
   in your terminal
