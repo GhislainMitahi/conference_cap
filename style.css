@@ -396,7 +396,7 @@ body header {
 .header .first-section {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  gap: 95px;
 }
 
 .header .first-section .ab_presentions {
