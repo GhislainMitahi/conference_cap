@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# CAMPANY STUFF_Conferance
+# CAMPANY Conferance TOOL
 
 This project is about to give me a handle as a student on how to create a web site flow.
 
@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
  To get the project in your local environment, run 
 
  ```
- git clone https://github.com/GhislainMitahi/M_portofolio
+ git clone git@github.com:GhislainMitahi/conference_cap.git
  
  ```
   in your terminal
