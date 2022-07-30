@@ -95,8 +95,3 @@ for (let i = 0; i < Speakers.length; i += 1) {
   `;
   document.querySelector('.speaker_cont').appendChild(speaker);
 }
-
-
-const qs = function(selector = '*', element = document) {
-  return element.querySelector(selector);
-}
