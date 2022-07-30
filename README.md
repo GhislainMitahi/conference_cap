@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# CAMPANY STUFF_Conferance
+# CAMPANY Conferance TOOL
 
 This project is about to give me a handle as a student on how to create a web site flow.
 
@@ -9,6 +9,8 @@ This project is about to give me a handle as a student on how to create a web si
 - Html, CSS & JavaScript
 
 ## Live demo
+
+https://ghislainmitahi.github.io/conference_cap/
 
 
 ## Getting Started
@@ -20,7 +22,8 @@ To get a local copy up and running follow these simple example steps.
  To get the project in your local environment, run 
 
  ```
- git clone it@github.com:GhislainMitahi/conference_cap.git
+
+ git clone git@github.com:GhislainMitahi/conference_cap.git
  
  ```
   in your terminal
@@ -38,9 +41,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgements
+
+This project is inspired to: [ Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) template CC-Global-Summit   Cindy Shin, I'm so gratfull for all.
 
 ## Show your support
 
@@ -48,5 +56,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is inspired to **Cindy Shin in Behance** template CAMPANY STUFF_Conferance
+This project is not licensed.
+
+
 
