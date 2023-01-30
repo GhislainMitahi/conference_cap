@@ -3,7 +3,7 @@
 # CAMPANY STUFF_Conferance
 
 This project is about to give me a handle as a student on how to create a web site flow.
-However is about a remote conference tool that can be used in the any community 😆😆
+However is about a remote conference tool that can be used in the any community 😆😆😆
 
 ## Built With
 
