@@ -13,16 +13,12 @@ However is about a remote conference tool that can be used in the any community 
 
 https://ghislainmitahi.github.io/conference_cap/
 
-## capture
+## captures
 
-![image](https://user-images.githubusercontent.com/74502009/232469168-1009d04f-fa65-4eee-be2c-562c982059ad.png)
+![image](https://user-images.githubusercontent.com/74502009/232470454-ae7a73f8-ed14-43a9-ba2c-8eea5a18fd82.png)
 ![image](https://user-images.githubusercontent.com/74502009/232469473-706f7578-b786-4f06-830d-aada049431f2.png)
 ![image](https://user-images.githubusercontent.com/74502009/232469546-21db1190-9054-4f41-8a20-8300e39169e3.png)
 ![image](https://user-images.githubusercontent.com/74502009/232469643-3a07fbbc-7e40-4c8f-86d7-256a2d6d98b6.png)
-
-
-
-
 
 
 ## Getting Started
