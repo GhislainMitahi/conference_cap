@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 - GitHub: [@GhislainMitahi](https://github.com/GhislainMitahi)
-- Twitter: [@GMItahi](https://https://twitter.com/GMitahi)
+- Twitter: [@GMitahi](https://https://twitter.com/GMitahi)
 - LinkedIn: [ghislainmitahi](https://linkedin.com/in/ghislain-mitahi/)
 
 
